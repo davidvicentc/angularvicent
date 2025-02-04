@@ -4,14 +4,7 @@
     <meta charset="utf-8" />
     <title>AngularVicent</title>
     <script type="text/javascript">
-      var pathSegments = window.location.pathname.split("/");
-      var baseIndex = pathSegments.indexOf("angularvicent");
-      if (baseIndex > -1) {
-        var path = pathSegments.slice(baseIndex + 1).join("/");
-        window.location.replace("/angularvicent/" + (path ? path : ""));
-      } else {
-        window.location.replace("/angularvicent/");
-      }
+      window.location.href = "/angularvicent/";
     </script>
   </head>
   <body>
