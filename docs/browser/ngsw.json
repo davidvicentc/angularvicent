@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1738678959843,
+  "index": "/angularvicent/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angularvicent/chunk-766NAXWG.js",
+        "/angularvicent/chunk-7CJ2WENE.js",
+        "/angularvicent/chunk-EDH3GT5V.js",
+        "/angularvicent/chunk-EZ5CCGWL.js",
+        "/angularvicent/chunk-MJYDEFSA.js",
+        "/angularvicent/index.html",
+        "/angularvicent/main-IFFOJMSF.js",
+        "/angularvicent/manifest.webmanifest",
+        "/angularvicent/polyfills-FFHMD2TL.js",
+        "/angularvicent/styles-VCN3WJRH.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angularvicent/assets/icons/icon-128x128.png",
+        "/angularvicent/assets/icons/icon-144x144.png",
+        "/angularvicent/assets/icons/icon-152x152.png",
+        "/angularvicent/assets/icons/icon-192x192.png",
+        "/angularvicent/assets/icons/icon-384x384.png",
+        "/angularvicent/assets/icons/icon-512x512.png",
+        "/angularvicent/assets/icons/icon-72x72.png",
+        "/angularvicent/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angularvicent/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/angularvicent/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/angularvicent/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/angularvicent/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/angularvicent/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/angularvicent/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/angularvicent/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/angularvicent/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/angularvicent/chunk-766NAXWG.js": "69bbf0f1f9665c8ee0e9f1ce8bd0d8f68a6e966a",
+    "/angularvicent/chunk-7CJ2WENE.js": "eda2aff170f65c015a90be351f31dea75aefbba4",
+    "/angularvicent/chunk-EDH3GT5V.js": "35a10714445b919022085bce609b285a319cc6a7",
+    "/angularvicent/chunk-EZ5CCGWL.js": "08d79a6d63826e79b90fe223a36340b20109cc5d",
+    "/angularvicent/chunk-MJYDEFSA.js": "1c0ab5189606ed7564e1930de90a95f7091c3c86",
+    "/angularvicent/index.html": "08ec86750313d960d58c4533df9dc8a4a24771df",
+    "/angularvicent/main-IFFOJMSF.js": "b679ab28cb38d5f1bb6bed9eac432811a53cef87",
+    "/angularvicent/manifest.webmanifest": "da59ccce68ae85c579f8a853b5056e61a28af87b",
+    "/angularvicent/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/angularvicent/styles-VCN3WJRH.css": "446c154b7963b134c6370b07015344dfc38b77d7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
