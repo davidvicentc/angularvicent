@@ -4,29 +4,27 @@
     <meta charset="utf-8" />
     <title>AngularVicent</title>
     <script type="text/javascript">
-      // Redirigir todas las rutas a index.html
-      var pathSegmentsToKeep = 1;
+      // Redirigir todas las rutas a index.html manteniendo la ruta base
+      var segmentCount = 1;
       var l = window.location;
-      l.replace(
+      var basePath = "/angularvicent/";
+
+      // Construir la URL de redirección
+      var redirectUrl =
         l.protocol +
-          "//" +
-          l.hostname +
-          (l.port ? ":" + l.port : "") +
-          l.pathname
-            .split("/")
-            .slice(0, 1 + pathSegmentsToKeep)
-            .join("/") +
-          "/?/" +
-          l.pathname
-            .slice(1)
-            .split("/")
-            .slice(pathSegmentsToKeep)
-            .join("/")
-            .replace(/&/g, "~and~") +
-          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
-          l.hash
-      );
+        "//" +
+        l.hostname +
+        (l.port ? ":" + l.port : "") +
+        basePath +
+        "?" +
+        l.pathname.slice(1).split("/").slice(segmentCount).join("/") +
+        (l.search ? "&" + l.search.slice(1) : "") +
+        l.hash;
+
+      window.location.replace(redirectUrl);
     </script>
   </head>
-  <body></body>
+  <body>
+    Redirigiendo...
+  </body>
 </html>
