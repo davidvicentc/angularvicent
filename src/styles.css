@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-primary-600 text-white font-semibold rounded-lg shadow-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-opacity-75;
+  }
+
+  .input-primary {
+    @apply w-full px-4 py-2 text-gray-700 bg-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-lg p-6;
+  }
+}
